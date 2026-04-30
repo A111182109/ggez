@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Georgia&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Georgia", serif;
+  
+  --color-natural-bg: #F5F2ED;
+  --color-natural-text: #2D3033;
+  --color-natural-blue: #4A7C94;
+  --color-natural-green: #7D8C7D;
+  --color-natural-sand: #E5D6C0;
+  --color-natural-card: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+}
